@@ -1,0 +1,165 @@
+.bodyproperties
+{
+  margin: 0;
+}
+.sectionZerocolor
+{
+  background-color: #dcd9ff;
+}
+.web_Dev2icon
+{
+  border-radius:15px;
+}
+.brandfont
+{
+font-family: 'Cairo', sans-serif;
+font-weight: bold;
+}
+.brandmargin
+{
+  margin-left: 1.5rem;
+}
+.sectionOnecolor
+{
+  background-color: #f2eee0;
+}
+.header
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Forum', cursive;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+}
+/* USING MULTI-SELECTORS */
+.sectionOnecolor .para
+{
+  text-align: center;
+  padding: 10px 0 0 10px;
+  font-size: 25px;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+}
+.covidimg
+{
+  height:75%;
+  width:65%;
+  margin-top:50px;
+position: relative;
+left:140px;
+border-radius: 15px;
+z-index: 1;
+}
+.sectionTwocolor
+{
+  background-color: #d2f6fc;
+}
+
+.carouselheader
+{
+  color: #55007a;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+font-weight:bold;
+margin-bottom:50px;
+
+}
+.carouselpara
+{
+color:#005950;
+margin:auto 120px 0 120px;
+font-size:24px;
+font-family: 'Cairo', sans-serif;
+}
+.carouselimage_l
+{
+  margin-right: auto;
+}
+.carouselimage_r
+{
+  margin-left: auto;
+}
+/* .h_p_margin
+{
+  margin-bottom:80px;
+} */
+.sectionThreecolor
+{
+  background-color: #a9d2ff;
+}
+.extraspace .carouselheader
+{
+  color: #55007a;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+font-weight:bold;
+margin-bottom:13px;
+}
+.sectionFourcolor
+{
+  background-color: #f8e1f4;
+}
+.cardtxt
+{
+  text-align: center;
+font-family: 'Cairo', sans-serif;
+font-size: 24px;
+}
+.m
+{
+height:17rem;
+}
+.container
+{
+  text-align: center;
+}
+.sectionFivecolor
+{
+  background-color:#edffea;
+}
+
+.visitbutton
+{
+  margin-bottom:20px;
+}
+.lastsectionHeader .header
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Forum', cursive;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+.bottomlinks
+{
+font-family: 'Cairo', sans-serif;
+font-size:20px;
+margin:10px;
+text-align: center;
+}
+.linkmargin
+{
+margin-right: 30px;
+margin-left: 30px;
+}
+#copyright
+{
+  margin-top: 20px;
+}
+/* SYNTAX FOR MEDIA QUERY : @media<type><feature> */
+@media print
+{
+  h1
+  {
+    color: #080075;
+  }
+  }
+  @media (max-width:600px)
+  {
+    h1
+    {
+      color: #080075;
+    }
+    }
